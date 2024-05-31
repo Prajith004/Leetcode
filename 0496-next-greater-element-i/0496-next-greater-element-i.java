@@ -20,9 +20,7 @@ class Solution {
                     break;
                 }
             }
-            if (!found) {
-                result[i] = -1;
-            }
+
         }
         return result;
     }
