@@ -5,8 +5,8 @@ class Solution:
         r_l=[]
         sorted_keys = sorted(r_d, key=lambda x: x[1],reverse=True)
         for i in range(len(sorted_keys)):
-            ele=sorted_keys[i][0]
-            r_l.append(ele)
+            
+            r_l.append(sorted_keys[i][0])
 
         return r_l
         
