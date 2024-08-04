@@ -5,9 +5,9 @@ class Solution:
         for ele in s:
             if ele=='{' or ele=='(' or ele=="[":
                 lst.append(ele)
-                print(ele)
+                
             if ele=='}':
-                print(ele)
+                
                 if  len(s)>1 and len(lst)>=1 :
                     if lst[len(lst)-1]=='{':
                         lst.pop(len(lst)-1)
@@ -19,7 +19,7 @@ class Solution:
 
 
             if ele==')':
-                print(ele)
+                
                 if  len(s)>1 and len(lst)>=1 :
                     if lst[len(lst)-1]=='(':
                         lst.pop(len(lst)-1)
@@ -32,7 +32,7 @@ class Solution:
            
 
             if ele==']':
-                print(ele)
+                
                 if  len(s)>1 and len(lst)>=1 :
                     if lst[len(lst)-1]=='[':
                         lst.pop(len(lst)-1)
