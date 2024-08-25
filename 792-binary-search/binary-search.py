@@ -3,8 +3,7 @@ class Solution:
         low = 0
         high = len(nums) - 1
         mid = 0
-        if len(nums)==1 and nums[0]==target:
-            return 0
+        
  
         while low <= high:
     
